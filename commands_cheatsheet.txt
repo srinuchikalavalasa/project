@@ -1,0 +1,143 @@
+    1  su
+    2  passwd
+    3  su
+    4  passwd su
+    5  passwd
+    6  clear
+    7  sudo passwd
+    8  su
+    9  pwd
+   10  ls
+   11  chmod 777 jdk-13.0.2_linux-x64_bin.rpm 
+   12  rpm -i jdk-13.0.2_linux-x64_bin.rpm 
+   13  su
+   14  Welcome1
+   15  su
+   16  clear
+   17  su
+   18  ls
+   19  chmod 777 addressbook.war 
+   20  cp addressbook.war /opt/tomcat/webapps
+   21  sudo cp addressbook.war /opt/tomcat/webapps
+   22  sudo ls /opt/tomcat
+   23  su
+   24  docker images
+   25  sudo systemctl docker start
+   26  sudo systemctl start docker
+   27  dcoker images
+   28  docker images
+   29  su
+   30  docker
+   31  docker ls
+   32  docker ps
+   33  su
+   34  su 
+   35  clear
+   36  su
+   37  su 
+   38  su
+   39  curl ifconfig.co
+   40  cd project/
+   41  ls
+   42  cd target/
+   43  ls
+   44  ls -lrt
+   45  mv addressbook.war /home/
+   46  mv addressbook.war /home/schikalavalasa/
+   47  whoami
+   48  ls
+   49  cp addressbook.war /home/schikalavalasa/
+   50  git rm addressbook.war 
+   51  git rm -r addressbook.war 
+   52  su 
+   53  clear
+   54  ls
+   55  sudo vi /etc/init.d/jenkins 
+   56  vi /etc/sysconfig/jenkins
+   57  sudo vi /etc/sysconfig/jenkins
+   58  q
+   59  clear
+   60  sudo vi /etc/sysconfig/jenkins
+   61  curl ifconfig.co
+   62  sudo vi /etc/sysconfig/jenkins
+   63  sudo /etc/init.d/jenkins stop
+   64  sudo /etc/init.d/jenkins start
+   65  sudo /etc/init.d/jenkins stop
+   66  sudo vi /etc/sysconfig/jenkins
+   67  clear
+   68  sudo /etc/init.d/jenkins start
+   69  cd /home/schikalavalasa/project/
+   70  ls
+   71  ls -lrt
+   72  rm -rf addressbook
+   73  ls
+   74  ls -lrt
+   75  rm addressbook.war 
+   76  ls
+   77  clear
+   78  ls
+   79  ls -a
+   80  ln -s /home/schikalavalasa/project/ project_path
+   81  cd ..
+   82  ls -lrt
+   83  cd project/
+   84  ls
+   85  ls -lrt
+   86  cd ~/project_path
+   87  rm -rf project_path/
+   88  clear
+   89  cd project_path/
+   90  cd
+   91  cd project_patch
+   92  cd project_path
+   93  curl ifconfig.co
+   94  cd /var/lib/jenkins/
+   95  ls
+   96  cd workspace
+   97  ls
+   98  cd pushtogit/
+   99  ls
+  100  cd target/
+  101  ls
+  102  pwd
+  103  clear
+  104  ls
+  105  ls -a
+  106  git init
+  107  sudo git init
+  108  cd ..
+  109  ls
+  110  su
+  111  docker images
+  112  /etc/docker/
+  113  ls
+  114  /etc/docker start
+  115  ls/etc/docker/
+  116  ls /etc/docker/
+  117  ls /etc/docker/dockerfiles/
+  118  vi /etc/docker/dockerfiles/Dockerfile 
+  119  cd /var/lib/jenkins/
+  120  cd workspace/
+  121  ls
+  122  cd deploy/
+  123  ls
+  124  vi dockerfile 
+  125  whereis dcoker
+  126  docker start
+  127  sudo systemctl start docker
+  128  docker images
+  129  su
+  130  curcl ifconfig.co
+  131  curl ifconfig.co
+  132  cd /var/lib/jenkins/workspace/deploy/
+  133  ls
+  134  vi dockerfile 
+  135  cd /home/schikalavalasa/project/
+  136  ls
+  137  vi dockerfile
+  138  vi playbook_docker.yaml
+  139  cat playbook_docker.yaml 
+  140  q!
+  141  clear
+  142  history
+  143  history>commands_cheatsheet.txt

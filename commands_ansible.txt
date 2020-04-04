@@ -1,0 +1,45 @@
+  113  vi playbook_docker.yaml 
+  114  cd /home/lalith/ansible/
+  115  vi playbook_docker.yaml 
+  116  cd /home/lalith/
+  117  ls
+  118  cd ansible/
+  119  ls
+  120  vi playbook_docker.yaml 
+  121  exit
+  122  cd /home/lalith/ansible/
+  123  vi playbook_docker.yaml 
+  124  ansible -m ping nodes
+  125  whoami
+  126  vi /etc/ansible/hosts 
+  127  sudo vi /etc/ansible/hosts 
+  128  ansible -m ping nodes
+  129  ansible-playbook playbook_docker.yaml --extra-vars "ansible_sudo_pass=Welcome1"
+  130  ansible -m ping nodes
+  131  vi playbook_docker.yaml 
+  132  cd /home/lalith/ansible/
+  133  clear
+  134  ls
+  135  vi playbook_docker.yaml 
+  136  ansible-playbook playbook_docker.yaml --extra-vars "ansible_sudo_pass=Welcome1"
+  137  vi playbook_docker.yaml 
+  138  ansible-playbook playbook_docker.yaml --extra-vars "ansible_sudo_pass=Welcome1"
+  139  clear
+  140  vi playbook_docker.yaml 
+  141  ansible-playbook playbook_docker.yaml --extra-vars "ansible_sudo_pass=Welcome1"
+  142  vi playbook_docker.yaml 
+  143  clear
+  144  ansible-playbook playbook_docker.yaml --extra-vars "ansible_sudo_pass=Welcome1"
+  145  cd /home/lalith/ansible/
+  146  ls
+  147  ansible-playbook playbook_docker.yaml --extra-vars "ansible_sudo_pass=Welcome1"
+  148  cd /home/lalith/ansible/
+  149  clear
+  150  vi playbook_docker.yaml 
+  151  ansible-playbook playbook_docker.yaml --extra-vars "ansible_sudo_pass=Welcome1"
+  152  ls
+  153  vi playbook_docker.yaml 
+  154  clear
+  155  history
+  156  history>commands_ansible.txt
+[lalith@ansible-server ansible]$ 
