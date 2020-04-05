@@ -1,0 +1,15 @@
+pwd
+rm -rf dockerfile
+rm -rf addressbook.war
+cp /var/lib/jenkins/workspace/package/target/addressbook.war .
+sudo docker container stop deploy_container
+sudo docker container prune -f
+touch dockerfile
+cat <<EOF>> dockerfile
+FROM tomcat:8
+COPY addressbook.war /usr/local/tomcat/webapps/
+EXPOSE 8080
+CMD ["catalina.sh", "run"]
+EOF
+sudo docker build . -t deploy
+sudo docker run -itd --name deploy_container -p 8082:8080 deploy
