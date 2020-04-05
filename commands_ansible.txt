@@ -49,7 +49,84 @@
    49  ansible-playbook playbook_docker.yaml
    50  ansible -m ping nodes
    51  ssh-keygen
-   
+      56  ssh-keygen
+   57  ssh-copy-id lalith@34.68.141.21
+   58  ls
+   59  ssh-copy-id lalith@34.68.141.21
+   60  rm -rf *
+   61  ls
+   62  ssh-keygen
+   63  ssh-copy-id lalith@34.69.208.205
+   64  ssh 'lalith@34.69.208.205'
+   65  clear
+   66  cd /etc/ansible/
+   67  vi hosts 
+   68  sudo vi hosts 
+   69  ls
+   70  cd /home/lalith/
+   71  cd ansible/
+   72  ls
+   73  ansible -m ping nodes
+   74  ansible-playbook playbook_docker.yaml 
+   75  vi playbook_docker.yaml 
+   76  ansible-playbook playbook_docker.yaml --extra-vars "ansible_sudo_pass=Welcome1"
+   77  vi playbook_docker.yaml 
+   78  ansible-playbook playbook_docker.yaml
+   79  ansible-playbook playbook_docker.yaml --extra-vars "ansible_sudo_pass=Welcome1"
+   80  cd /home/lalith/ansible/
+   81  ls
+   82  vi playbook_docker.yaml 
+   83  ansible-playbook playbook_docker.yaml --extra-vars "ansible_sudo_pass=Welcome1"
+   84  vi playbook_docker.yaml 
+   85  ansible-playbook playbook_docker.yaml --extra-vars "ansible_sudo_pass=Welcome1"
+   86  clear
+   87  vi playbook_docker.yaml 
+   88  cd /home/lalith/ansible/
+   89  ls
+   90  vi playbook_docker.yaml 
+   91  ansible -m ping nodes
+   92  pwd
+   93  cd /etc/ansible/
+   94  ls
+   95  vi hosts 
+   96  sudo vi host
+   97  sudo vi hosts
+   98  ansible -m ping nodes
+   99  clear
+  100  exit
+  101  ls
+  102  cd /home/lalith/
+  103  ls
+  104  cd ansible/playbook
+  105  cd ansible/
+  106  clear
+  107  ls
+  108  vi playbook.yaml 
+  109  ansible -m ping nodes
+  110  clear
+  111  cd /home/lalith/ansible/
+  112  ls
+  113  vi playbook_docker.yaml 
+  114  cd /home/lalith/ansible/
+  115  vi playbook_docker.yaml 
+  116  cd /home/lalith/
+  117  ls
+  118  cd ansible/
+  119  ls
+  120  vi playbook_docker.yaml 
+  121  exit
+  122  cd /home/lalith/ansible/
+  123  vi playbook_docker.yaml 
+  124  ansible -m ping nodes
+  125  whoami
+  126  vi /etc/ansible/hosts 
+  127  sudo vi /etc/ansible/hosts 
+  128  ansible -m ping nodes
+  129  ansible-playbook playbook_docker.yaml --extra-vars "ansible_sudo_pass=Welcome1"
+  130  ansible -m ping nodes
+  131  vi playbook_docker.yaml 
+  132  cd /home/lalith/ansible/
+  133  clear
   113  vi playbook_docker.yaml 
   114  cd /home/lalith/ansible/
   115  vi playbook_docker.yaml 
