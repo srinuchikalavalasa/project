@@ -1,0 +1,7 @@
+FROM tomcat:8
+RUN curl -O -L https://github.com/srinuchikalavalasa/project/blob/master/target/addressbook.war
+RUN chmod +r addressbook.war
+
+EXPOSE 8080
+
+CMD ["catalina.sh", "run"]
