@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: addressbook-pod
+spec:
+   containers:
+   - name: deploycontainer
+     image: srinuchikalavalasa/deploy_1204
+     ports:
+     - containerPort: 8080

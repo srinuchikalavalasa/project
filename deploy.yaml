@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: sample-deploy
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: sample-app
+    spec:
+      containers:
+      - name: sample-pod
+        image: srinuchikalavalasa/deploy_1204
+        ports:
+        - containerPort: 80
+
